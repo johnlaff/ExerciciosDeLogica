@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.26)
+project(AlgoritmosELogicaDeProgramacaoNelioAlves C)
+
+set(CMAKE_C_STANDARD 17)
+
+add_executable(terreno terreno.c)
+add_executable(retangulo retangulo.c)
+add_executable(idades idades.c)
+
+target_link_libraries(retangulo m)
+add_executable(notas notas.c)
+add_executable(baskara baskara.c)
+target_link_libraries(baskara m)
+add_executable(menor_de_tres menor_de_tres.c)
+add_executable(crescente crescente.c)
+add_executable(media_idades media_idades.c)
+add_executable(tabuada tabuada.c)
+add_executable(soma_impares soma_impares.c)
+add_executable(negativos negativos.c)
+add_executable(soma_vetor soma_vetor.c)
+add_executable(alturas Alturas.c)
+add_executable(diagonal_negativos diagonal_negativos.c)
+add_executable(soma_linhas soma_linhas.c)
